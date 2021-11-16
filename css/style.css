@@ -23,6 +23,7 @@ hr {
     display: inline-block;
     background-color: transparent;
     cursor: pointer;
+    margin: auto;
 }
 
 .btn:hover {
@@ -93,7 +94,9 @@ section {
     display: none;
 }
 
-
+#drop-nav {
+    display: none;
+}
 
 
 label[for="drop-nav"]{
