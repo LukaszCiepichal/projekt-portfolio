@@ -252,6 +252,7 @@ label[for="drop-nav"]{
     .container{
         max-width: 992px;
     }
+  
 }
 
 @media (max-width: 992px){
@@ -284,14 +285,12 @@ label[for="drop-nav"]{
         max-height: 200px;
         max-width: 200px;
     }
-}
-
-.kontakt input[type="text"],
-.kontakt input[type="email"]{
+    .kontakt input[type="text"],
+    .kontakt input[type="email"]{
     flex-basis: 100%;
-}
 
-label[for="drop-nav"]{
+}
+    label[for="drop-nav"]{
     display: block;
     padding: 14px 20px;
     color: #ffffff;
@@ -301,21 +300,18 @@ label[for="drop-nav"]{
     cursor: pointer;
 }
 
-.main-menu ul{
+
+
+.main-menu ul {
     display: none;
 }
 
-#drop-nav:checked + ul{
+#drop-nav:checked + ul {
     display: block;
 }
 
-.main-menu ul .menu-item{
+.main-menu ul .menu-item {
     display: block;
     text-align: right;
     margin: 0;
 }
-
-
-
-
-
